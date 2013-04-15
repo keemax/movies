@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <TextView android:id="@+id/movie_search_text"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="what movie are you watching"/>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <EditText android:layout_width="1.5in"
+                android:layout_height="50dp"
+                android:id="@+id/edittext_search_movie"
+                android:inputType="text">
+        </EditText>
+        <Button android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/button_find_movie"
+                android:text="find">
+        </Button>
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="1.6in">
+        <RadioGroup android:id="@+id/radiogroup_movies"
+                    android:fadeScrollbars="true"
+                    android:isScrollContainer="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent">
+        </RadioGroup>
+    </ScrollView>
+    <TextView android:id="@+id/character_search_text"
+              android:layout_marginTop="20dp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="what's the character's name"/>
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="50dp"
+              android:id="@+id/edittext_search_character"
+              android:inputType="text">
+    </EditText>
+        <Button android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_search"
+                android:text="search">
+        </Button>
+
+</LinearLayout>

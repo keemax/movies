@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">movies</string>
+    <string name="tmdb_api_key">436daf076ad9f187c166b3062c36686f</string>
+    <string name="baseurl_search_movie">http://api.themoviedb.org/3/search/movie</string>
+    <string name="baseurl_search_person">http://api.themoviedb.org/3/search/person</string>
+    <string name="baseurl_movie">http://api.themoviedb.org/3/movie/</string>
+    <string name="baseurl_person">http://api.themoviedb.org/3/person/</string>
+    <string name="baseurl_movie_now_playing">http://api.themoviedb.org/3/movie/now-playing</string>
+    <string name="baseurl_movie_popular">http://api.themoviedb.org/3/movie/popular</string>
+    <string name="baseurl_movie_top_rated">http://api.themoviedb.org/3/movie/top-rated</string>
+    <string name="baseurl_configuration">http://api.themoviedb.org/3/configuration</string>
+    <string name="baseurl_images">http://cf2.imgobject.com/t/p/</string>
+    <string name="backdrop_small">w300</string>
+    <string name="backdrop_medium">w780</string>
+    <string name="backdrop_large">w1280</string>
+    <string name="poster_xsmall">w92</string>
+    <string name="poster_small">w154</string>
+    <string name="poster_medium">w185</string>
+    <string name="poster_large">w342</string>
+    <string name="poster_xlarge">w500</string>
+    <string name="profile_small">w45</string>
+    <string name="profile_medium">w185</string>
+    <string name="profile_large">h632</string>
+    <string name="image_original">original</string>
+
+    <string name="rt_api_key">ctz3ekb4absb7bwkx9x8ndr7</string>
+    <string name="baseurl_search_movie_rt">http://api.rottentomatoes.com/api/public/v1.0/movies.json</string>
+</resources>

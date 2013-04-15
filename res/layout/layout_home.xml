@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button android:id="@+id/button_find_character"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="find character in movie">
+    </Button>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="4">
+        <EditText android:id="@+id/edittext_find_movie"
+                  android:layout_width="match_parent"
+                  android:layout_height="45dp"
+                  android:layout_weight="2"
+                  android:inputType="text"/>
+        <Button android:id="@+id/button_find_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="search for a movie">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="4">
+        <EditText android:id="@+id/edittext_find_person"
+                  android:layout_width="match_parent"
+                  android:layout_height="45dp"
+                  android:layout_weight="2"
+                  android:inputType="text"/>
+        <Button android:id="@+id/button_find_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="search for a person">
+        </Button>
+    </LinearLayout>
+
+
+    <Button android:id="@+id/button_now_playing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="see what's in theaters now">
+    </Button>
+    <Button android:id="@+id/button_popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="see what's popular">
+    </Button>
+    <Button android:id="@+id/button_top_rated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="see the top rated movies on TMBd">
+    </Button>
+
+</LinearLayout>

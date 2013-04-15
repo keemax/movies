@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <ImageView android:id="@+id/image_person_info"
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:contentDescription="person image"/>
+        <ScrollView android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView android:id="@+id/text_person_name"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:textSize="22dp"/>
+                <TextView android:id="@+id/text_person_birth"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:textSize="16dp"/>
+                <TextView android:id="@+id/text_person_death"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:textSize="16dp"/>
+                <TextView android:id="@+id/text_person_bio"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="12dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <!--<TextView android:layout_width="fill_parent"-->
+              <!--android:layout_height="wrap_content"-->
+              <!--android:textStyle="italic"-->
+              <!--android:text="appears in"-->
+              <!--android:gravity="center"-->
+              <!--android:textColor="#000"-->
+              <!--android:background="#9F0"-->
+              <!--android:textSize="12dp"/>-->
+    <TabHost android:id="@+id/tabhost_credits"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent">
+        <TabWidget android:id="@android:id/tabs"
+                   android:layout_height="60dp"
+                   android:layout_width="300dp"
+                   android:layout_gravity="top">
+        </TabWidget>
+        <FrameLayout android:id="@android:id/tabcontent"
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:paddingTop="60dp">
+            <ListView android:id="@+id/listview_credits"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"/>
+        </FrameLayout>
+    </TabHost>
+
+</LinearLayout>
